@@ -20532,7 +20532,7 @@ Reference: BIS & LMPC pages for hero spacing
     .pg-srv-cat-header h2,
     .pg-srv-cat-header h3, 
     .pg-srv-cat-header h4 {
-        font-size: 1.4rem !important;  /* Small enough to stay on 1 line */
+        font-size: 1.2rem !important;  /* Small enough to stay on 1 line */
         line-height: 1.4 !important;   /* Clean spacing */
         width: auto !important;
         margin-bottom: 0.5rem !important;
@@ -21821,6 +21821,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
