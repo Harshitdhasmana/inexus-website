@@ -3558,7 +3558,7 @@ body {
     
     /* ===== INDUSTRIES ===== */
     .ix-industries-section {
-        padding: 50px 15px;
+        padding: 50px 0px;
     }
     
     .ix-industries-header .ix-main-quote {
@@ -21811,6 +21811,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
