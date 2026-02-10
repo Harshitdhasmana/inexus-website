@@ -3242,7 +3242,7 @@ body {
     }
      .ix-banner {
         height: auto !important;
-        min-height: 110vh !important;
+        min-height: 85vh !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
         display: flex !important;
@@ -3258,11 +3258,11 @@ body {
     }
     
      .ix-slider-wrapper {
-        min-height: 110vh !important;
+        min-height: 85vh !important;
     }
     
     .ix-slide {
-    min-height: 110vh !important;
+    min-height: 85vh !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -3286,7 +3286,7 @@ body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    min-height: 110vh !important;
+    min-height: 85vh !important;
 }
 
 .ix-slider-banner .ix-slider-wrapper {
@@ -3295,7 +3295,7 @@ body {
     left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    min-height: 110vh !important;
+    min-height: 85vh !important;
 }
 
 .ix-slider-banner .ix-slide {
@@ -3304,7 +3304,7 @@ body {
     left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    min-height: 45vh !important;
+    min-height: 85vh !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -21811,6 +21811,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
