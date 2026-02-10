@@ -4616,11 +4616,13 @@ html {
     
     .ab-subtitle {
         font-size: 11px;
+        text-align: center;
     }
     
     .ab-section-title {
         font-size: 24px;
         margin-bottom: 15px;
+        text-align: center;
     }
     
     .ab-para {
@@ -21819,6 +21821,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
