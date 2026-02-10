@@ -3304,7 +3304,7 @@ body {
     left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    min-height: 110vh !important;
+    min-height: 100vh !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -21811,6 +21811,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
