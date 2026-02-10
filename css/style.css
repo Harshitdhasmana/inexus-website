@@ -5518,7 +5518,7 @@ html {
     .ct-card {
         padding: 18px;
         gap: 15px;
-        flex-direction: row !important;
+        flex-direction: column !important;
         align-items: center !important;
         justify-content: flex-start !important;
         padding-left: 5% !important;
@@ -5540,6 +5540,7 @@ html {
     
     .ct-card-data strong {
         font-size: 15px;
+        text-align:center;
     }
     
     .ct-card-data a,
@@ -21820,6 +21821,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
