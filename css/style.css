@@ -3574,7 +3574,11 @@ body {
     }
     
     .ix-industry-content h4 {
-        font-size: 18px !important;
+        font-size: 15px !important;
+        text-align: center;
+    }
+    .ix-industry-icon {
+        margin-left: 35%;
     }
     
     .ix-industry-content p {
@@ -21811,6 +21815,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
