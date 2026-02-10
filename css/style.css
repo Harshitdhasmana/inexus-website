@@ -20567,8 +20567,7 @@ Reference: BIS & LMPC pages for hero spacing
 
     /* 3. TEXT IN CARDS */
     .pg-srv-card p {
-        text-align: justify !important;
-        text-justify: inter-word !important;
+        text-align: center !important;
         hyphens: auto;
     }
     .pg-srv-list {
@@ -21821,6 +21820,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
