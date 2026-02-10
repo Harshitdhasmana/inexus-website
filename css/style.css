@@ -20570,10 +20570,10 @@ Reference: BIS & LMPC pages for hero spacing
     font-weight: 800;
     line-height: 1.2;
 }
-.pg-srv-hero {
+/*.pg-srv-hero {
         padding-top: 1rem !important;
     }
-}
+} */
 
 /***************************Privacy Policy and Terms and Conditions *********************************/
 /* ================= PG-LEGAL MODERN THEME (Prefix: pg-legal-) ================= */
@@ -21811,3 +21811,4 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
