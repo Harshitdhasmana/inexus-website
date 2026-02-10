@@ -8020,6 +8020,9 @@ html {
     .pg-imp-reg-hero-desc {
        font-size: 1rem;    
     }
+    .pg-imp-reg-list-box h4 {
+    font-size: 1.2rem;
+   }
 }
 
 /* =========================================================
@@ -21821,6 +21824,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
