@@ -3583,6 +3583,9 @@ body {
     
     .ix-industry-content p {
         font-size: 13px !important;
+        text-align: center;
+        hyphens: auto;
+        word-spacing: -0.05em;
     }
     
     /* ===== TESTIMONIALS ===== */
@@ -21815,6 +21818,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
