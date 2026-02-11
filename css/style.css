@@ -11742,6 +11742,9 @@ WPC/ETA APPROVAL - RESPONSIVE CSS WITH REM UNITS
     .pg-wpc-list-box h4 {
         font-size: 1.1rem;
     }
+    .pg-wpc-glass-card ul {
+      padding-left: 10%;
+    } 
 }
 
 /****************************** Custom Clearance Main SERVICES CSS CODE***************************/
@@ -21887,6 +21890,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
