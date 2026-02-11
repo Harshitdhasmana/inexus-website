@@ -14242,6 +14242,16 @@ CONSULTANCY SERVICES - COMPLETE RESPONSIVE CSS WITH REM UNITS
     .pg-consult-hero-divider {
         font-size: 0.75rem;
     }
+     .pg-consult-hero-divider {
+        font-size: 0.75rem;
+   }
+   .pg-consult-phone-btn {
+        font-size: 0.75rem;
+        gap: 0.1rem;
+    }
+   .pg-consult-cta-group i{
+       display: none;
+   }
 }
 
 /*************************** Business Setup Consultancy CSS code ****************************/
@@ -21866,6 +21876,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
