@@ -14225,7 +14225,7 @@ CONSULTANCY SERVICES - COMPLETE RESPONSIVE CSS WITH REM UNITS
      grid-template-columns: repeat(1, minmax(18.75rem, 1fr));
     }
     .pg-consult-industry-grid {
-        padding-left: 5%;
+        padding-left: 10%;
     }
     #market-heading {
         padding-left: 1rem;
@@ -21866,6 +21866,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
