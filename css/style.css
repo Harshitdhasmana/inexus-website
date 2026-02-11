@@ -19176,6 +19176,7 @@ Following LMPC Perfect Spacing Patterns:
     font-size: 0.9375rem; /* 15px */
     color: #666;
     line-height: 1.6;
+    hyphens:auto
 }
 
 .pg-apeda-intro-img img {
@@ -21856,6 +21857,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
