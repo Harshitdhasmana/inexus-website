@@ -11491,6 +11491,9 @@ Following LMPC Perfect Spacing Patterns:
         width: 100%;
         justify-content: center;
     }
+    .pg-bis-check-list {
+        padding-left: 10%;
+    }
 }
 
 /* =============================================================================
@@ -21842,6 +21845,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
