@@ -18977,7 +18977,7 @@ Following LMPC Perfect Spacing Patterns:
     .pg-fssai-lic-why-grid {
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
-        padding: 0 1rem;
+        
     }
     
     /* Cards */
@@ -21890,6 +21890,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
