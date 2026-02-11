@@ -19999,6 +19999,12 @@ Following LMPC Perfect Spacing Patterns:
     
     .pg-apeda-srv-title {
         font-size: 1.2rem;
+        text-align: center;
+        display: grid;
+    }
+    .pg-apeda-srv-list {
+        display: grid;
+        padding: 0 2rem;
     }
     
     /* Dark Sections */
@@ -21857,6 +21863,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
