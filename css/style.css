@@ -19237,6 +19237,8 @@ Following LMPC Perfect Spacing Patterns:
 .pg-apeda-glass-card li {
     text-align: left;
     padding-left: 0.5rem; /* 8px - additional spacing from bullet */
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .pg-apeda-glass-card:hover {
@@ -21848,6 +21850,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
