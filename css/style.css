@@ -15538,6 +15538,7 @@ IMPORT-EXPORT TRADE ADVISORY - PART 2: RESPONSIVE BREAKPOINTS
     .pg-trd-adv-intro-text p {
         text-align: justify !important;
         text-justify: inter-word !important;
+        hyphens: auto;
     }
     
     /* ========== FEATURE BOX ========== */
@@ -15551,8 +15552,7 @@ IMPORT-EXPORT TRADE ADVISORY - PART 2: RESPONSIVE BREAKPOINTS
         margin: 0 auto 1rem;
     }
     p#imp-trd-box {
-        text-align: center;
-        margin-left: 18%;
+        text-align: center !important;
     }
     
     /* ========== GRIDS - 2 COLUMNS OR 1 COLUMN ========== */
@@ -21863,6 +21863,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
