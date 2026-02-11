@@ -10799,6 +10799,7 @@ COMPLETE RESPONSIVE CSS WITH REM UNITS - FOLLOWING BIS PERFECT PATTERN
         display: inline-block !important;
         text-align: left !important;
         margin: 1rem auto 0 !important;
+        padding-left: 12%;
     }
     .pg-iec-reg-glass-card ul{
         padding-left: 1rem;
@@ -21841,6 +21842,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
