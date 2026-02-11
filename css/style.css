@@ -13450,8 +13450,21 @@ PORT CLEARANCE ASSISTANCE - RESPONSIVE CSS WITH REM UNITS
     width: fit-content;
     text-align: left;
 }
-.pg-port-ast-coverage-card li { font-size: 0.8125rem; color: #555; margin-bottom: 0.5rem; }
-.pg-port-ast-coverage-card li::before { content: '📍'; margin-right: 0.5rem; font-size: 0.625rem; }
+.pg-port-ast-coverage-card li { 
+    font-size: 0.8125rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    /* --- NEW ALIGNMENT CODE --- */
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;  
+}
+.pg-port-ast-coverage-card li::before { content: '📍';
+    font-size: 0.625rem;
+    /* --- NEW ALIGNMENT CODE --- */
+    margin-top: 0.15rem; /* Aligns pin with the text baseline */
+    flex-shrink: 0;      /* Stops the pin from shrinking when text wraps */
+ }
 
 /* ============= PROCESS ============= */
 .pg-port-ast-step-bg { background: #ededed; padding: 4.375rem 5%; border-radius: 1.875rem; }
@@ -13529,7 +13542,7 @@ PORT CLEARANCE ASSISTANCE - RESPONSIVE CSS WITH REM UNITS
     .pg-port-ast-process-flex, .pg-port-ast-coverage-grid { grid-template-columns: 1fr; }
     .pg-port-ast-cta-group a { width: 100%; text-align: center; justify-content: center; }
     .pg-port-ast-coverage-card ul {
-      margin-left: 5rem;
+      margin-left: 3rem;
     }
 }
 
@@ -21825,6 +21838,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
