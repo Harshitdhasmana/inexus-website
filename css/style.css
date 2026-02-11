@@ -20341,7 +20341,7 @@ Reference: BIS & LMPC pages for hero spacing
     /* Hero - Same as BIS */
     .pg-drug-pharma-hero { 
         height: 45vh; 
-        margin-top: 8.125rem; /* 130px */
+        margin-top: 10rem; /* 130px */
         padding: 3.75rem 1.25rem; /* 60px 20px - Same as BIS */
     }
     
@@ -21863,6 +21863,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
