@@ -11499,6 +11499,9 @@ Following LMPC Perfect Spacing Patterns:
     .pg-bis-check-list {
         padding-left: 10%;
     }
+    .pg-bis-list-card h4 { 
+      margin-bottom: 0.5rem;
+    }
 }
 
 /* =============================================================================
@@ -21884,6 +21887,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
