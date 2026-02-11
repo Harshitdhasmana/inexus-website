@@ -10776,6 +10776,9 @@ COMPLETE RESPONSIVE CSS WITH REM UNITS - FOLLOWING BIS PERFECT PATTERN
      #llp-icon{
       margin-left: 30%;
      }
+     #llp-head {
+      padding-right: 2rem;
+    }
      .pg-iec-reg-list-box h4 {
         padding-left: 10%;
     }
@@ -21838,6 +21841,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
