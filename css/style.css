@@ -11696,7 +11696,7 @@ WPC/ETA APPROVAL - RESPONSIVE CSS WITH REM UNITS
 
 /* ============= RESPONSIVE 768px ============= */
 @media (max-width: 768px) {
-    .pg-wpc-hero { height: 50vh; margin-top: 6.875rem; } /* 110px */
+    .pg-wpc-hero { height: 50vh; margin-top: 10rem; } /* 110px */
     .pg-wpc-intro-grid { grid-template-columns: 1fr; text-align: center; }
     .pg-wpc-intro-text { order: 2; }
     .pg-wpc-intro-img { order: 1; margin-bottom: 1.875rem; } /* 30px */
@@ -21845,6 +21845,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
