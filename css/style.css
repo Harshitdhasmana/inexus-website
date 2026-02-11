@@ -18358,8 +18358,10 @@ Following LMPC Perfect Spacing Patterns:
     border-radius: 1.25rem; /* 20px */
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0.625rem); /* 10px */
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     transition: 0.3s ease;
+    font-size: 0.8125rem;
+    
 }
 
 .pg-fssai-lic-glass-card:hover {
@@ -21890,6 +21892,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
