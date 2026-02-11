@@ -19952,7 +19952,7 @@ Following LMPC Perfect Spacing Patterns:
     }
     
     /* All Grids Single Column */
-    .pg-apeda-glass-grid,
+    
     .pg-apeda-cat-grid,
     .pg-apeda-council-grid,
     .pg-apeda-process-grid,
@@ -19963,6 +19963,12 @@ Following LMPC Perfect Spacing Patterns:
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
         padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
+    .pg-apeda-glass-grid{
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+        padding: 0 0rem;
         padding-bottom: 2rem;
     }
     
@@ -21850,6 +21856,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
