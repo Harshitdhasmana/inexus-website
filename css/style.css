@@ -10753,7 +10753,7 @@ COMPLETE RESPONSIVE CSS WITH REM UNITS - FOLLOWING BIS PERFECT PATTERN
     .pg-iec-reg-mods-grid {
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
-        padding: 1 1rem;
+        padding: 0 1rem;
     }
     
     /* Cards */
@@ -21838,6 +21838,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
