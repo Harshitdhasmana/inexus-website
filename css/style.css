@@ -13367,6 +13367,9 @@ DOCUMENTATION SUPPORT FOR CUSTOMS - RESPONSIVE CSS WITH REM UNITS
     #custom-list{
         padding-left: 2.5rem;
     }
+    .pg-doc-customs-hero-desc {
+      font-size: 0.95rem;
+    }
 }
 
 /************************************** Port Clearance Assistance Service CSS Code ***************/
@@ -21881,6 +21884,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
