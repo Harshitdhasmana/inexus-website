@@ -20048,7 +20048,7 @@ Following LMPC Perfect Spacing Patterns:
     }
     .pg-apeda-srv-list {
         display: grid;
-        padding: 0 2rem;
+        padding-left: 2.5rem;
     }
     
     /* Dark Sections */
@@ -21907,6 +21907,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
