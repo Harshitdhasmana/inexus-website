@@ -16733,7 +16733,11 @@ GST REGISTRATION & RETURNS - RESPONSIVE CSS WITH REM UNITS
 .pg-gst-hero-title span { color: #cfa36a; }
 .pg-gst-hero-desc { font-size: 1.125rem; color: rgba(255,255,255,0.7); max-width: 50rem; margin: 1.25rem auto 0; } /* 18px 800px 20px */
 
-.pg-gst-section-gap { padding: 3.125rem 0; } /* 50px */
+.pg-gst-section-gap { 
+    width: 90%;
+    max-width: 75rem;
+    margin: 3.125rem auto;
+    padding: 0; } /* 50px */
 
 .pg-gst-main-title { font-size: 2.375rem; color: #0b2c3d; font-weight: 800; margin-bottom: 1.5625rem; } /* 38px 25px */
 .pg-gst-main-title span { color: #cfa36a; }
@@ -16772,7 +16776,7 @@ GST REGISTRATION & RETURNS - RESPONSIVE CSS WITH REM UNITS
     margin-right: auto;
     width: fit-content;
     text-align: left;
-    margin-left: 25%;
+    
 }
 .pg-gst-glass-list li { font-size: 0.8125rem; margin-bottom: 0.5rem; color: rgba(255,255,255,0.7); position: relative; padding-left: 0.9375rem; } /* 13px 8px 15px */
 .pg-gst-glass-list li::before { content: "•"; color: #cfa36a; position: absolute; left: 0; }
@@ -21922,6 +21926,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
