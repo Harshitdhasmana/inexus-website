@@ -17425,7 +17425,7 @@ TRADEMARK & IPR SERVICES - RESPONSIVE CSS WITH REM UNITS
     }
     #patent-list {
         margin-top: 1rem;
-        padding-left: 2rem !important;
+        padding-left: 1rem !important;
     }
     .pg-trademark-ipr-check-list, .pg-trademark-ipr-class-list {
         padding-left: 0rem !important;
@@ -21930,6 +21930,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
