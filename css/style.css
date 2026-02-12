@@ -14607,6 +14607,9 @@ REGULATORY COMPLIANCE ADVISORY - RESPONSIVE CSS WITH REM UNITS
     width: fit-content;
     text-align: left;
 }
+#operational-compliance-list,#sector-specific-list{
+    margin-top: 3rem;
+}
 .pg-reg-adv-glass-card li { font-size: 0.8125rem; margin-bottom: 0.3125rem; color: rgba(255,255,255,0.8); }
 
 /* ============= BADGES ============= */
@@ -14743,6 +14746,12 @@ REGULATORY COMPLIANCE ADVISORY - RESPONSIVE CSS WITH REM UNITS
         text-align: center !important;
         width: 100% !important;
     }
+     #operational-compliance-list, #sector-specific-list {
+        margin-top: 0rem;
+    }
+    .pg-reg-adv-glass-card ul {
+        padding-left: 2.5rem;
+    }
 }
 
 /* ============= RESPONSIVE 480px ============= */
@@ -14753,6 +14762,12 @@ REGULATORY COMPLIANCE ADVISORY - RESPONSIVE CSS WITH REM UNITS
     .pg-reg-adv-cta-group a { width: 100%; text-align: center; justify-content: center; }
     .pg-reg-adv-check-list {
         margin-left: 20%;
+    }
+    .pg-reg-adv-accent-line {
+        margin-left: 40%;
+    }
+    .pg-reg-adv-glass-card ul {
+        padding-left: 2.5rem;
     }
 }
 
@@ -21907,6 +21922,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
