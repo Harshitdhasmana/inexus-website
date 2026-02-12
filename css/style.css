@@ -3798,49 +3798,28 @@ body {
    ==================================================================== */
 @media (max-width: 375px) {
 
-    /* 1. Container: Force a height so the Logo fits inside */
-    .ix-nav-container {
-        justify-content: flex-start !important; /* Align Toggle Left */
-        padding-left: 20px !important;          /* Gap for Toggle from edge */
-        padding-right: 20px !important;
-        position: relative !important;
-        
-        /* FIX: Prevents "Tightly Packed" collapse */
-        min-height: 70px !important;            /* Forces navbar to be tall enough */
-        display: flex !important;
-        align-items: center !important;         /* Centers Toggle vertically */
-    }
-
-    /* 2. Toggle: Left Side */
-    .ix-nav-toggle {
-        order: 1 !important;
-        margin: 0 !important;
-        z-index: 1002;
-    }
-
-    /* 3. Logo: ABSOLUTE CENTER (Vertical + Horizontal) */
-    .ix-logo-box {
-        position: absolute !important;
-        left: 50% !important;
-        top: 50% !important;
-        
-        /* FIX: Centers it perfectly in the middle of the 70px box */
-        transform: translate(-50%, -50%) !important; 
-        
-        margin: 0 !important;
-        z-index: 1001;
-        width: auto !important;
-    }
-
-    /* 4. Logo Size */
-    .ix-logo-box img {
-       max-width: 140px !important; 
-    }
-
-    /* 5. Hide secondary elements */
-    .ix-nav-cta, 
-    .ix-nav-phone {
+    /* Hide only the Free Consultation button */
+    .ix-nav-cta {
         display: none !important;
+    }
+
+    /* Keep phone number on the right (inherits from 480px styles) */
+    .ix-nav-phone {
+        margin-left: auto !important;
+        margin-right: 15px !important;
+        display: block !important;
+        font-size: 12px !important;
+    }
+
+    /* Slight adjustments for smaller screen */
+    .ix-logo-box img {
+        height: 55px !important;
+        max-width: 120px !important;
+    }
+
+    .ix-nav-toggle span {
+        width: 22px;
+        height: 2px;
     }
 }
 
@@ -21930,6 +21909,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
