@@ -15719,7 +15719,7 @@ IMPORT-EXPORT TRADE ADVISORY - PART 2: RESPONSIVE BREAKPOINTS
     }
     
     .pg-trd-adv-hero-subtitle {
-        font-size: 0.9375rem; /* 15px */
+        font-size: 0.75rem; /* 15px */
     }
     
     .pg-trd-adv-breadcrumb {
@@ -21922,6 +21922,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
