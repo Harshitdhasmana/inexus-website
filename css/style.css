@@ -17429,6 +17429,9 @@ TRADEMARK & IPR SERVICES - RESPONSIVE CSS WITH REM UNITS
     .pg-trademark-ipr-check-list, .pg-trademark-ipr-class-list {
         padding-left: 0rem !important;
     }
+    .pg-trademark-ipr-breadcrumb {
+        font-size: 0.75rem;
+    }
 }
 
 
@@ -21926,6 +21929,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
