@@ -18374,7 +18374,7 @@ Following LMPC Perfect Spacing Patterns:
     color: #cfa36a;
     margin-bottom: 1.5625rem; /* 25px */
     display: block;
-    margin-left: 4.5rem;
+    text-align:center;
 }
 
 .pg-fssai-lic-glass-card h3 {
@@ -18382,7 +18382,7 @@ Following LMPC Perfect Spacing Patterns:
     margin-bottom: 0.9375rem; /* 15px */
     font-size: 1.35rem;
     font-weight: 700;
-    margin-left: 2rem;
+    text-align:center;
 }
 
 .pg-fssai-lic-glass-list {
@@ -18424,6 +18424,9 @@ Following LMPC Perfect Spacing Patterns:
 #central-fssai-list{
     margin-bottom:2.5rem;
 }
+#state-fssai-para{
+    margin-top: 3rem;
+} 
 
 /* =============================================================================
    PROCESS STEPS
@@ -21901,6 +21904,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
