@@ -19044,6 +19044,9 @@ Following LMPC Perfect Spacing Patterns:
     .pg-fssai-lic-check-list {
         padding-left: 10%;
     }
+    #post-license-compliance-list {
+        margin-left: 10%;
+    }
 }
 
 /* =============================================================================
@@ -21904,6 +21907,7 @@ Reference: BIS & LMPC pages for hero spacing
     }
 
 }
+
 
 
 
