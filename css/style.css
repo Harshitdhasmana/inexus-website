@@ -1309,6 +1309,11 @@ body {
     padding: 100px 0;
     background: #0b2c3d; /* Dark Blue from your theme */
     color: #fff;
+
+    /* --- Add these lines to fix the bg lag --- */
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    will-change: transform;
 }
 
 .ix-industries-container {
@@ -6600,7 +6605,7 @@ html {
  /*********************Understanding Cyber Crime Laws ********************************/
  /* ================= ARTICLE PAGE NAMESPACED STYLES ================= */
 .art-cyber-body { background: #f7f7f7; color: #444; }
-.art-cyber-section-margin { margin: 50px auto !important; }
+.art-cyber-section-margin { margin: 50px 5% !important; }
 
 .art-cyber-hero {
     height: 55vh;
@@ -6619,7 +6624,7 @@ html {
 .art-cyber-main-layout { display: grid; grid-template-columns: 1fr 350px; gap: 50px; }
 
 .art-cyber-article-card { background: #fff; padding: 60px; border-radius: 15px; box-shadow: 0 10px 40px rgba(0,0,0,0.05); }
-.art-cyber-main-title { font-family: 'Playfair Display', serif; font-size: 40px; color: #2c3e50; line-height: 1.3; margin-bottom: 20px; }
+.art-cyber-main-title { font-family: 'Playfair Display', serif; font-size: 40px; color: #2c3e50; line-height: 1.3; margin-bottom: 20px;  }
 .art-cyber-meta-data { display: flex; gap: 20px; font-size: 14px; color: #888; margin-bottom: 40px; }
 .art-cyber-meta-data i { color: #cfa36a; margin-right: 5px; }
 
@@ -6658,6 +6663,18 @@ html {
     .art-cyber-article-card { padding: 30px; }
     .art-cyber-hero-title { font-size: 35px; }
     .art-cyber-sidebar { position: static; }
+    .art-cyber-main-title {
+       text-align: center;
+    }
+    .art-cyber-meta-data {
+       justify-content: center;
+    }
+    .art-cyber-section-heading {
+       text-align: center;
+    }
+    .art-cyber-line {
+       margin-left: 45%;
+    }
 }
 @media (max-width: 480px) {
     .art-cyber-section-margin { margin: 30px 15px !important; }
@@ -6667,7 +6684,7 @@ html {
 /***************************** BLOG GST UPDATES *********************************************/
 /* ================= GST ARTICLE NAMESPACED STYLES ================= */
 .pg-gst-art-body { background: #f7f9fb; color: #444; }
-.pg-gst-art-section-margin { margin: 50px auto !important; }
+.pg-gst-art-section-margin { margin: 50px 5% !important; }
 
 .pg-gst-art-hero {
     height: 55vh;
@@ -6741,6 +6758,18 @@ html {
     .pg-gst-art-card { padding: 30px; }
     .pg-gst-art-hero-title { font-size: 35px; }
     .pg-gst-art-grid-2 { grid-template-columns: 1fr; }
+    .pg-gst-art-main-title {
+       text-align: center;
+    }
+    .pg-gst-art-meta {
+       margin-left: 10%;
+    }
+    .pg-gst-art-heading {
+       text-align: center;
+    }
+    .pg-gst-art-line {
+       margin-left: 45%;
+    }
 }
 @media (max-width: 480px) {
     .pg-gst-art-section-margin { margin: 30px 15px !important; }
@@ -6750,7 +6779,7 @@ html {
 /***************************** BLOG TRADEMARK_REGISTRATION_BENEFITS *********************************************/
 /* ================= TRADEMARK ARTICLE NAMESPACED STYLES ================= */
 .pg-trdmrk-art-body { background: #fdfdfd; color: #333; }
-.pg-trdmrk-art-section-margin { margin: 50px auto !important; }
+.pg-trdmrk-art-section-margin { margin: 50px 5% !important; }
 
 .pg-trdmrk-art-hero {
     height: 55vh;
@@ -6810,6 +6839,18 @@ html {
     .pg-trdmrk-art-card { padding: 30px; }
     .pg-trdmrk-art-hero-title { font-size: 34px; }
     .pg-trdmrk-art-sidebar { position: static; }
+    .pg-trdmrk-art-heading {
+       text-align: center;
+    }
+    .pg-trdmrk-art-line {
+       margin-left: 45%;
+    }
+    .pg-trdmrk-art-meta {
+      justify-content: center;
+    }
+    .pg-trdmrk-art-hero {
+      margin-top: 10rem;
+    }
 }
 @media (max-width: 480px) {
     .pg-trdmrk-art-section-margin { margin: 30px 15px !important; }
@@ -6818,7 +6859,7 @@ html {
 /************************* COMPANY REGISTRATION ARTICLE ************************************/
 /* ================= COMPANY REGISTRATION ARTICLE STYLES ================= */
 .pg-comp-reg-art-body { background: #f9f9f9; color: #444; }
-.pg-comp-reg-art-section-margin { margin: 50px auto !important; }
+.pg-comp-reg-art-section-margin { margin: 50px 5% !important; }
 
 .pg-comp-reg-art-hero {
     height: 55vh;
@@ -6826,7 +6867,7 @@ html {
                 url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1500&q=80');
     background-size: cover; background-position: center;
     display: flex; align-items: center; justify-content: center;
-    text-align: center; color: #fff; margin-top: 130px;
+    text-align: center; color: #fff; margin-top: 9rem;
 }
 .pg-comp-reg-art-breadcrumb { font-size: 13px; margin-bottom: 20px; color: #cfa36a; letter-spacing: 1px; }
 .pg-comp-reg-art-breadcrumb a { color: #fff; text-decoration: none; }
@@ -6880,10 +6921,26 @@ html {
     .pg-comp-reg-art-card p {
         text-align: justify !important;
         text-justify: inter-word !important;
+        hyphens: auto;
         
         /* Ensure width allows justification to work */
         width: 100% !important; 
         margin-right: 0 !important;
+    }
+    .pg-comp-reg-art-heading {
+        text-align: center;
+    }
+    .pg-comp-reg-art-line {
+        margin-left: 45%;
+    }
+    .pg-comp-reg-art-subheading {
+        text-align: center;
+    } 
+    .pg-comp-reg-art-bullet-list {
+        margin-left: 25%;
+    }
+    .pg-comp-reg-sidebar-widget h3 {
+        text-align: center;
     }
 }
 @media (max-width: 480px) {
@@ -6922,7 +6979,7 @@ html {
 /******************************** BLOG LEGAL NOTICES GUIDE ARTICLE ********************************************/
 /* ================= LEGAL NOTICE ARTICLE STYLES ================= */
 .pg-legal-notice-art-body { background: #f6f8fa; color: #333; }
-.pg-legal-notice-art-section-margin { margin: 50px auto !important; }
+.pg-legal-notice-art-section-margin { margin: 50px 5% !important; }
 
 .pg-legal-notice-art-hero {
     height: 55vh;
@@ -6981,6 +7038,15 @@ html {
     .pg-legal-notice-art-hero-title { font-size: 34px; }
     .pg-legal-notice-art-sidebar { position: static; }
     .pg-legal-notice-art-benefit-grid { grid-template-columns: 1fr; }
+    .pg-legal-notice-art-heading {
+       text-align: center;
+    }
+    .pg-legal-notice-art-line {
+       margin-left: 45%;
+    }
+    .pg-legal-notice-art-meta {
+       justify-content: center;
+    }
 }
 @media (max-width: 480px) {
     .pg-legal-notice-art-section-margin { margin: 30px 15px !important; }
@@ -6990,7 +7056,7 @@ html {
 
 /* ================= PROPERTY REGISTRATION ARTICLE STYLES ================= */
 .pg-prop-reg-art-body { background: #fcfcfc; color: #444; }
-.pg-prop-reg-art-section-margin { margin: 50px auto !important; }
+.pg-prop-reg-art-section-margin { margin: 50px 5% !important; }
 
 .pg-prop-reg-art-hero {
     height: 55vh;
@@ -7044,6 +7110,19 @@ html {
     .pg-prop-reg-art-card { padding: 35px; }
     .pg-prop-reg-art-hero-title { font-size: 34px; }
     .pg-prop-reg-art-sidebar { position: static; }
+    .pg-prop-reg-art-hero {
+       margin-top: 10rem;
+    }
+    .pg-prop-reg-art-meta {
+       justify-content: center;
+    }
+    .pg-prop-reg-art-heading {
+       text-align: center;
+    }
+    .pg-prop-reg-art-line {
+       margin-left: 45%;
+    }
+    
 }
 @media (max-width: 480px) {
     .pg-prop-reg-art-section-margin { margin: 30px 15px !important; }
@@ -7081,6 +7160,7 @@ html {
         text-justify: inter-word !important;
         width: 100% !important;
         margin-right: 0 !important;
+        hyphens: auto;
     }
 }
 
@@ -7104,6 +7184,7 @@ html {
         margin-bottom: 2rem !important;
         padding-bottom: 1rem !important;
         border-bottom: 1px solid #eee !important;
+        margin-left: 30%;
     }
 
     /* Target ALL Meta Items (Spans) */
@@ -20670,8 +20751,8 @@ Reference: BIS & LMPC pages for hero spacing
 }
 /*.pg-srv-hero {
         padding-top: 1rem !important;
-    }
-} */
+    } */
+} 
 
 /***************************Privacy Policy and Terms and Conditions *********************************/
 /* ================= PG-LEGAL MODERN THEME (Prefix: pg-legal-) ================= */
