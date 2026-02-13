@@ -131,7 +131,18 @@ document.addEventListener('DOMContentLoaded', function() {
             { title: 'Business Setup', icon: 'fa-lightbulb', desc: 'End-to-end business setup guidance including legal structure, licenses, and compliance.' },
             { title: 'Regulatory Advisory', icon: 'fa-gavel', desc: 'Expert advisory services for maintaining regulatory compliance across various sectors.' },
             { title: 'Trade Advisory', icon: 'fa-handshake', desc: 'Strategic advisory services for import-export businesses and international trade operations.' }
+        ],
+        corporate: [
+            { title: 'Entity Incorporations', icon: 'fa-building-columns', desc: 'Expert assistance with incorporating various business entities.' },
+            { title: 'Indian Secretarial Services', icon: 'fa-file-contract', desc: 'Ensure complete corporate compliance in India with our end-to-end secretarial services.' },
+            { title: 'Registered Office Service', icon: 'fa-map-location-dot', desc: 'Get a compliant registered office address without operational burden.' }
+        ],
+        additional: [
+            { title: 'Professional Directorship', icon: 'fa-user-tie', desc: 'Meet director and residency requirements with our professional directorship services.' },
+            { title: 'Entity Health Check', icon: 'fa-heart-pulse', desc: 'Comprehensive corporate compliance review to confirm all statutory filings, governance requirements, and regulatory obligations are properly completed.' },
+            { title: 'Global Entity Set-Up', icon: 'fa-globe', desc: 'Planning to expand internationally? We conduct jurisdiction viability studies and manage company formation across multiple countries.' }
         ]
+
     };
 
     const menuItems = document.querySelectorAll('.ix-cat-item');
