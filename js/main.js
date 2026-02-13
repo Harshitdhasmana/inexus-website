@@ -234,7 +234,7 @@ const obs = new IntersectionObserver(entries=>{
       e.target.style.transform="translateY(0)";
     }
   })
-},{threshold:.15});
+},{threshold:0});
 
 reveal.forEach(el=>{
   el.style.opacity=0;
